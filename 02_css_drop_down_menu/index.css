@@ -1,0 +1,22 @@
+.menu > li {
+  position: relative;
+  display: inline-block;
+  margin: 0 20px;
+}
+
+.menu > li:hover > .sub-menu{
+  display: block;
+}
+
+.sub-menu {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  display: none;
+  list-style: none;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
